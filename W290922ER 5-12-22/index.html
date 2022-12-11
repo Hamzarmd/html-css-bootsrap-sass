@@ -1,0 +1,421 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> form</title>
+  
+</head>
+<style>
+    *{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+ 
+   
+}
+.container{
+    padding-left: 15px;
+    padding-right: 15px;
+    margin-left: auto;
+    margin-right: auto; 
+}
+h1{
+    color:  #158cba;
+    text-align: center;
+}
+
+img{
+    width: 250px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+ .paragrafh{
+    color: #999;
+    margin: 0 0 10px;
+    text-align: center;
+}
+.prgh{
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+.alert{
+    color: #fff;
+    background-color: #75caeb;
+    border-color: #40b5e3;
+    border: 1px solid #40b5e3 ;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin: 20px;
+    width: 1600px;
+}
+.alert1{
+    color: #fff;
+    background-color: #ff851b;
+    border-color: #ff7701;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    margin: 20px;
+    width: 1600px;
+}
+
+.top-secion{
+    padding: 0;
+    margin: 0;
+    border: 0;
+    min-width: 0;
+    border: none;
+}
+legend{
+    color: #fff;
+    background-color: #75caeb;
+    padding: 10px 15px;
+    border-bottom: 1px solid transparent;
+    border-top-left-radius: 3px;
+    border-top-right-radius: 3px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 1600px;
+}
+
+.from-control{
+    display: block;
+    width: 100%;
+    height: 38px;
+    padding: 7px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #e7e7e7;
+    border-radius: 4px;
+  
+    box-shadow: inset 0 1px 1px rgb(0 0 0 / 8%);
+  
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+.ft{
+    margin-left: 20px;
+    padding-left: 15px;
+  
+   
+}
+
+
+.panel {
+    border: 1px solid #e7e7e7;
+    border-width: 0 1px 4px 1px;
+
+margin: 5px;
+padding: 5px;}
+
+.btn-primary {
+    color: #fff;
+    background-color: #158cba;
+    border-color: #127ba3;
+width: 100px;
+height: 20px;}
+   
+
+</style>
+<body dir="rtl">
+    <div class="container">
+    <img src="images/logo_white.png"  alt="">
+    <h1 >טופס 101</h1>
+    <p class="paragrafh">כרטיס עובד - ובקשה להקלה ולתיאום מס על ידי המעביד <br>
+        לפי תקנות מס הכנסה (ניכוי ממשכורת ומשכר עבודה), התשנ"ג - 1993</p>
+        <p class="prgh">טופס זה ימולא על-ידי כל עובד עם תחילת עבודתו, וכן בתחילת כל שנת מס (אלא אם כן המנהל אישר אחרת). הטופס מהווה אסמכתא למעביד למתן הקלות במס ולעריכת תיאומי מס בחישוב משכורת העובד. אם חל שינוי בפרטים - יש להצהיר על כך תוך שבוע ימים.
+
+        </p>
+
+        <div class="alert">
+            <p>
+                מלא את הטופס ובתחתית העמוד תוכל:
+                <ul>
+                    <li>להוריד קובץ PDF עם הפרטים שמילאת. הקובץ שתקבל הוא טופס 101 רגיל ותקני.
+
+                    </li>
+                    <li>לשלוח את הטופס באימייל לך ולמעסיק.
+
+                    </li>
+                    <li>לשמור טיוטה של הטופס ולהמשיך מאוחר יותר.
+
+                    </li>
+                </ul>
+
+
+            </p>
+        </div>
+
+        <div class="alert1">
+            <p>הטופס הוא שירות חינמי המופעל ע"י חברת Tepez, המספקת פתרונות מחשוב טפסים ותהליכים ארגוניים. הטופס אינו מופעל ע"י רשות המסים ואינו מאושר על ידה.
+
+            </p><br>
+            <p>שים לב! אם המעסיק שלך משתמש במערכת אחרת לטופסי 101 - עליך למלא את הטופס שם. מומלץ לוודא עם המעסיק.
+
+            </p><br>
+            <p>הפרטיות שלך חשובה לנו. אנחנו לא עושים שימוש במידע שלך ולא מעבירים אותו לגורמים שלישיים.
+
+            </p>
+
+        </div>
+      
+   
+    
+    <form action="https://formspree.io/f/xnqrelpp" >
+        <fieldset class="top-secion">
+            <legend>א. פרטי המעביד</legend><br>
+
+<input type="radio" name="radio" id="radio-line">
+<label for="radio-line" >2022</label>
+<input type="radio" name="radio" id="radio-line">
+<label for="radio-line">2023</label>
+<br>
+            
+        </fieldset >
+        <fieldset class="top-section">
+          <label for="name">שם</label>
+          <input type="text" name="name">
+          <label for="email">כותבת</label>
+          <input type="email" name="E-mail">
+         
+    
+          <label for="phone">מספר טלפון:</label>
+          <input type="phone" name="phone" id="phone">
+          <label for="number">מספר תיק ניכויים</label>
+          <input type="number" name="number" id="number">
+
+          
+
+        </fieldset>
+        <br>
+
+        <legend>ב. פרטי העובד/ת</legend><br>
+        <fieldset class="top-section">
+            
+        <label for="firs-name">שם פרטי</label>
+       
+            <input type="text">
+
+            <label for="laste name">שם משפחה</label>
+            <input type="text" name="laste-name"><br>
+           
+
+        
+        <br>
+
+
+      
+
+        <input type="radio" name="radio" id="radio-line">
+        <label for="radio-line" >תעודת זהות</label>
+        <input type="radio" name="radio" id="radio-line">
+        <label for="radio-line">דרכון (עבור אזרח זר)</label>     
+        
+      
+        
+        <br>
+
+<br>
+      
+            <label class="control-label">מספר זהות 
+           </label>
+                <input type="text">
+                <label for="control-label" >צילום תעודת זהות וספח</label>
+              
+                <input type="file" >
+                <br><br>
+                <label for="control-label">תאריך לידה</label>
+                <input type="date" name="Date">
+                <label for="control-label">תאריך עליה</label>
+                <input type="date" name="Date">
+                <br><br>
+             
+              <label for="country">ישוב</label>
+              <span class="select2-chosen" id="select2-chosen-1"></span>
+             
+              <select name="country">
+                <option value="Tel-Avev">תל-אביב</option>
+                <option value="petah-tegva">פתח תקווה</option>
+                <option value="Kfar-sava">כפר סבא</option>
+                <option value="nourth">צפון</option>
+                <option value="tsfad">צפד</option>
+                <option value="kakhav-eaaer">כוכב יאיר</option>
+               
+              </select>
+              <label for="country">רחוב</label>
+              <span class="select2-chosen" id="select2-chosen-1"></span>
+             
+              <select name="country">
+                <option value="israel">רותשילד</option>
+                <option value="petah-tegva">הסדנה</option>
+                <option value="Kfar-sava">זבודינסקי</option>
+                <option value="nourth"> דיר אלזור</option>
+                <option value="tsfad">ציפורים ההר</option>
+                <option value="kakhav-eaaer">תופז</option>
+               
+              </select>
+
+              <label for="home-number">מספר בית</label>
+              <input type="number">
+              <label for="address">מיקוד</label>
+              <input type="number" name="Number">
+
+              <br><br>
+              <label for="home-tel">מספר טלפון נייד</label>
+              <input type="tel">
+              <label for="home-tel">מספר טלפון</label>
+              <input type="tel" name="Telephone">
+
+              <br><br>
+              <label for="email">כתובת דואר אלקטרוני</label>
+              <input type="email" name="E-mail">
+              <br><br>
+           
+
+             
+
+
+
+
+  
+
+    
+        </fieldset>
+        <br>
+        <fieldset class="top-secion">
+            <legend> אני מבקש/ת פטור או זיכוי ממס מהסיבות הבאות
+
+
+            </legend>
+            
+            <div class="panel">
+
+            
+            <input type="checkbox" name="chek">
+            <label for="Chekbox">1. אני תושב/ת ישראל</label>
+            </div><br>
+            <div class="panel">
+
+               
+                <input type="checkbox" name="chek">
+                <label for="Chekbox">2. אני נכה 100% / עיוור/ת לצמיתות</label>
+                </div><br>
+                <div class="panel">
+
+               
+                    <input type="checkbox" name="chek">
+                    <label for="Chekbox">3. אני תושב/ת קבוע/ה בישוב מזכה. אני ובני משפחתי מדרגה ראשונה, מתגוררים ביישוב ואין לי "מרכז חיים" נוסף. </label>
+                    </div><br>
+                    <div class="panel">
+
+               
+                        <input type="checkbox" name="chek">
+                        <label for="Chekbox">4. אני עולה חדש/ה</label>
+                        </div><br>
+                        <div class="panel">
+
+               
+                            <input type="checkbox" name="chek">
+                            <label for="Chekbox">5. בגין בן/בת זוגי המתגורר/ת עימי ואין לו/לה הכנסות בשנת המס</label>
+                            </div><br>
+                            <div class="panel">
+
+               
+                                <input type="checkbox" name="chek">
+                                <label for="Chekbox">6. אני הורה במשפחה חד הורית החי בנפרד</label>
+                                </div><br>
+                                <div class="panel">
+
+               
+                                    <input type="checkbox" name="chek">
+                                    <label for="Chekbox">7. בגין ילדי שבחזקתי המפורטים בחלק ג</label>
+                                    </div><br>
+                                    <div class="panel">
+
+               
+                                        <input type="checkbox" name="chek">
+                                        <label for="Chekbox">8. בגין ילדי הפעוטים
+                                        </label>
+                                        </div><br>
+                                        <div class="panel">
+
+               
+                                            <input type="checkbox" name="chek">
+                                            <label for="Chekbox">9. אני הורה יחיד לילדי שבחזקתי (המפורטים בסעיף 7 ו-8 לעיל)</label>
+                                            </div><br>
+                                            <div class="panel">
+
+               
+                                                <input type="checkbox" name="chek">
+                                                <label for="Chekbox">10. בגין ילדי שאינם בחזקתי המפורטים בחלק ג ואני משתתף/ת בכלכלתם</label>
+                                                </div><br>
+                                                <div class="panel">
+
+               
+                                                    <input type="checkbox" name="chek">
+                                                    <label for="Chekbox">11. אני הורה לילדים עם מוגבלות שטרם מלאו להם 19 שנים, בגינם אני מקבל/ת גמלת ילד נכה מהמוסד לביטוח לאומי</label>
+                                                    </div><br>
+                                                    <div class="panel">
+
+               
+                                                       
+
+                                                       <input type="checkbox" name="chek">
+                                                        <label for="Chekbox">12. בגין מזונות לבן/בת זוגי לשעבר.</label>
+                                                        </div><br>
+                                                        <div class="panel">
+
+               
+                                                            <input type="checkbox" name="chek">
+                                                            <label for="Chekbox">13. מלאו לי או לבן/בת זוגי 16 שנים וטרם מלאו לי או לבן/בת זוגי 18 שנים בשנת המס.</label>
+                                                            </div><br>
+                                                            <div class="panel">
+
+               
+                                                                <input type="checkbox" name="chek">
+                                                                <label for="Chekbox">14. אני חייל/ת משוחרר/ת / שרתתי בשירות לאומי.</label>
+                                                                </div><br>
+                                                                <div class="panel">
+
+               
+                                                                    <input type="checkbox" name="chek">
+                                                                    <label for="Chekbox">15. בגין סיום לימודים לתואר אקדמי, סיום התמחות או סיום לימודי מקצוע.</label>
+                                                                    </div><br>
+
+                </div><br>
+                
+
+        </fieldset>
+        <legend> תיאום מס
+        </legend>
+ <fieldset class="top-secion">
+        <input type="checkbox" name="chek">
+        <label for="chekbox">צירוף/עריכת תיאום מס</label>
+    </fieldset>
+    <center>
+    <button class="btn-primary">שלח</button>
+        </center>
+    </form>
+</div>
+<br><br><br>
+<hr>
+
+
+     
+</body>
+
+</html>
