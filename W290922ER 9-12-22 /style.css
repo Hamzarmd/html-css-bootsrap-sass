@@ -56,40 +56,22 @@ form{
 
     padding: 5px;
 }
-/* .right{
-    border: 1px solid gray;
-    width: 800px;
-    float: right;
-    margin: 25px;
-    padding: 5px;
-} */
+
 
 fieldset>.labell{
     float: right;
  height: 500px;
  top: 50px;
 }
-/* label.laabel{
-   
-}
-.inpute{
+
  
 
-    justify-items: auto;
-    width: 100px;
-    display: flex;
-    justify-content: space-between;
-   
-    margin-top: 15px;
-    float: right;
-}
+ 
+
 input.input1{
     height: 300px;
-} */
-fieldset,.fldt{
- 
-  
-}
+} 
+
   
 fieldset,.fildsent{
     margin: 2px;
