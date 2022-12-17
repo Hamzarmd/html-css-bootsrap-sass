@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body dir="rtl">
+    
+    <h1>כרטיס עובד</h1>
+    <h4 class="h">ובקשה להקלה ולתיאום מס על ידי המעסיק</h4>
+    <p class="paragrafh">לפי תקנות מס הכנסה (ניכוי ממשכורת ומשכר עבודה), התשנ"ג - 1993</p>
+    
+    <form action="https://formspree.io/f/xqkjrnvv" method="POST">
+
+<center class="date">
+        <label for="mas">שנת המס</label>
+        <input type="date" name="date">
+        </center>
+        <h4>     א. פרטי המעסיק  <span style="font-size:12px ;"> (למילוי ע"י המעסיק)</span> 
+        </h4>
+        <fieldset>
+      <label for="name">שם</label>
+      <input type="text" name="name">
+      <label for="email">כתובת</label>
+      <input type="email" name="email">
+      <label for="phone">מספר טלפון</label>
+      <input type="tel" name="tel">
+      <label for="tek">
+         מספר תיק ניכויים 
+    </label>
+      <input type="number" id="tentacles" name="number "  >
+    </fieldset>
+    <br><br>
+    <h4>     ב. פרטי העובד/ת <span style="font-size:12px ;">  (יש לצרף צילום תעודת זהות כולל ספח. אם צורף בעבר, יש לצרף צילום רק אם היו שינויים בפרטים. למי שאין מספר תעודת זהות יש
+        לצרף צילום דרכון ואישור / רשיון שהייה בישראל שנתנו על ידי רשות האוכלוסין וההגירה)</span> 
+    </h4>
+    <fieldset>
+        <label for="tznamber" style="font-size:13px ;">מספר זהות<span style="font-size:10px ;">(9 ספרות)</span> </label>
+        <input type="number" id="tentacles" name="number" >
+        <label for="text">שם משפחה</label>
+        <input type="text" name="name">
+        <label for="text">שם פרטי</label>
+        <input type="text" name="name">
+        <label for="Date">תאריך לידה</label>
+        <input type="date" name="date">
+        <label for="Date">תאריך עליה</label>
+        <input type="date" name="date">
+        <br><br>
+        <label for="tznamber" style="font-size:13px ;">מספר דרכון<span style="font-size:10px ;"> (למי שאין מספר ת.ז.)</span> </label>
+        <input type="number" id="tentacles" name="number" >
+        <label for="text">כתובת פרטית</label>
+        <input type="text" name="text">
+
+
+
+        
+        
+
+    </fieldset class="fldt">
+
+  
+  
+    <h4>ג.פרטים על הכנסותיי ממעסיק זה</h4>
+    <fieldset class="maasek">
+      <p style="font-size: 10px;">אני מקבל/ת: (ראה הסברים מעבר לדף)</p>
+      
+      <input type="checkbox" name="checkbox">
+      <label for="ckcbox">יש לי הכנסות אחרות כמפורט להלן:</label>
+      <input type="checkbox" name="checkbox">
+      <label for="ckcbox">משכורת חודש</label><br>
+
+      <input type="checkbox" name="checkbox">
+      <label for="ckcbox">משכורת בעד משרה נוספת</label><br>
+      <input type="checkbox" name="checkbox">
+      <label for="ckcbox">משכורת חלקית</label><br>
+      
+      <p>אם יש לך הכנסה אחרת - נא סמןי: </p>
+
+      <label for="ckcbox"><br> אבקש לקבל נקודות זיכוי ומדרגות מס כנגד הכנסתי זו
+        (סעיף ד). איני מקבל/ת אותן בהכנסה אחרת</label>
+      
+      <label for="ckcbox"><br>
+        אחרת ועל כן איני זכאי/ת להן כנגד הכנסה זו אני מקבל/ת נקודות זיכוי ומדרגות מס בהכנסה </label><br>
+      <input type="checkbox" name="checkbox">
+      <label for="ckcbox">אין מפרישים עבורי לקרן השתלמות בגין הכנסתי
+        בגין הכנסתי האחרת מצורפות להכנסתי האחרת האחרת, או שכל הפרשות המעסיק לקרן השתלמות </label><br>
+      <input type="checkbox" name="checkbox">
+      <label for="ckcbox"> אין מפרישים עבורי לקצבה/לביטוח אובדן כושר
+        עבודה/פיצויים בגין הכנסתי האחרת, או שכל הפרשות
+        המעסיק לקצבה/לביטוח אובדן כושר עבודה/פיצויים
+       
+        בגין הכנסתי האחרת מצורפות להכנסתי האחרת</label><br>
+        <input type="checkbox" name="checkbox">
+        <label for="checkbox">אין מפרישים עבורי לקצבה/לביטוח אובדן כושר
+          עבודה/פיצויים בגין הכנסתי האחרת, או שכל הפרשות
+          המעסיק לקצבה/לביטוח אובדן כושר עבודה/פיצויים
+        
+          בגין הכנסתי האחרת מצורפות להכנסתי האחרת</label>
+      
+    </fieldset>
+
+   
+      <!-- <label for="number">מספר זהות (9 ספרות)</label>
+      <input type="number">
+      <label for="text">שם משפחה</label>
+      <input type="text">
+      <label for="text">שם פרטי</label>
+      <input type="text">
+      <label for="number">תאריך לידה</label>
+      <input type="number"> -->
+    
+        <!-- <fieldset class="tabell">
+          
+         <div class="labell">
+          <div class="inpute">
+      <label for="name"  >שם</label>
+      <input type="text" class="input1" >
+      <label for="number" >מספר זהות</label>
+      <input type="number" class="input1" >
+      <label for="number" >תאריך לידה</label>
+      <input type="number" class="input1" >
+      </div>
+    </div>
+  
+      
+    </fieldset> -->
+    
+    <fieldset class="fildsent">
+      <h4> פרטים על בן/בת הזוג</h4>
+   
+      <label for="name">מספר זהות (9 ספרות)</label>
+      <input type="number" name="number">
+      <label for="text">שם משפחה</label>
+      <input type="text" name="text">
+      <label for="text">שם פרטי</label>
+      <input type="text" name="text">
+      <label for="number">תאריך לידה</label>
+      <input type="number">
+      <label for="number">תאריך עליה</label>
+      <input type="number">
+      <label for="number">מספר דרכון (למי שאין מספר זהות)</label>
+      <input type="number" name="number">
+      <input type="checkbox">
+      <label for="text">אין לבן/בת הזוג כל הכנסה</label>
+      <input type="checkbox">
+      <label for="text">יש לבן/בת הזוג הכנסה מ:</label>
+      <input type="checkbox">
+      <label for="text"> עבודה/קצבה/עסק</label>
+      <input type="checbox" name="checkbox">
+      <label for="checkbox"> עבודה/קצבה/עסק</label>
+      <input type="checkbox" name="checbox" >
+      <label for="checkbox">הכנסה אחרת</label>
+      <br><br>
+      <h4>שינויים במהלך השנה (כולל שינויים הקשורים לבקשה להקלה בחישוב המס מעבר לדף)</h4>
+      <br><br><br><br>
+
+      <h5>מספר זהות _____</h5>
+      <h4>אני מבקש/ת פטור או זיכוי ממס מהסיבות הבאות (סמן/י √ בריבוע המתאים)</h4>
+      1
+      <input type="checkbox">
+      <label for="checkbox">אני תושב/ת ישראל.</label><br>
+      2
+      <input type="checkbox">
+      <label for="checkbox">אני נכה %100 / עיוור/ת לצמיתות. מצורף אישור משרד הביטחון/האוצר/פקיד השומה/תעודת עיוור שהוצאה לאחר 94.1.1.
+        אם לא סומן בפרק ה כי "אין לי הכנסות אחרות לרבות מלגות" העובד יופנה לפקיד השומה לעריכת תיאום מס. </label><br>
+      3
+      <input type="checkbox">
+      <label for="checkbox"> (מתאריך______ . אני ובני משפחתי מדרגה ראשונה,
+        אני תושב/ת קבוע/ה בישוב מזכה
+        מתגוררים ביישוב_______ ואין לי "מרכז חיים" נוסף. מצורף אישור של הרשות ע"ג טופס 1312א.</label><br>
+      4
+      <input type="checkbox">
+      <label for="checkbox">אני עולה חדש/ה מתאריך ._________
+        לא היתה לי הכנסה בישראל מתחילת שנת המס הנוכחית עד תאריך .
+        מי שתקופת זכאותו אינה רצופה בשל שירות חובה בצה"ל, לימודים על תיכוניים או יציאה לחו"ל - יפנה לפקיד השומה.
+        חובה לצרף: תעודת עולה.</label><br>
+     5
+      <input type="checkbox">
+      <label for="checkbox">רק אם העובד/ת או בן/בת הזוג הגיע/ה לגיל פרישה או שהוא/היא נכה או עיוור/ת עפ"י סעיף 9)5 (לפקודה. בגין בן/בת זוגי המתגורר/ת עימי ואין לו/לה הכנסות בשנת המס.</label><br>
+     6
+      <input type="checkbox">
+      <label for="checkbox">(11(החי בנפרד. ימולא רק ע"י הורה כאמור החי בנפרד ומבקש נקודות זיכוי עבור ילדיו, הנמצאים בחזקתו ובגינם
+        o אני הורה במשפחה חד הורית
+        מקבל קצבת ילדים מהמוסד לביטוח לאומי (בהתאם לסעיף 7 להלן) ואינו מנהל משק בית משותף עם יחיד/ה אחר/ת.</label><br>
+      7
+      <input type="checkbox">
+      <label for="checkbox">בגין ילדיי שבחזקתי המפורטים בחלק ג.</label><br>
+      <input type="checkbox">
+      <label for="checkbox">מספר ילדים שנולדו בשנת המס .____</label>
+      <input type="checkbox" name="checkbox">
+      <label for="checkbox">מספר ילדים שימלאו להם שנה אחת עד 5 שנים בשנת המס .______</label>
+      <input type="checkbox" name="checkbox">
+      <label for="checkbox">מספר ילדים שימלאו להם 18 שנים בשנת המס _________.</label>
+      <input type="checkbox" name="checkbox">
+      <label for="checkbox">מספר ילדים שימלאו להם 6 שנים עד 12 שנים בשנת המס ______.</label>
+      <input type="checkbox" name="checkbox">
+      <label for="checkbox">מספר ילדים שימלאו להם 13 שנים עד 17 שנים בשנת המס ._____</label>
+
+
+      8
+      <input type="checkbox">
+      <label for="checkbox">oבגין ילדיי. ימולא ע"י הורה (למעט הורה אשר סימן בפסקה 7 לעיל), אשה לא נשואה שילדיה אינם בחזקתה וכן הורה יחיד</label><br>
+      <input type="checkbox">
+      <label for="checkbox">מספר ילדים שנולדו בשנת המס ______.</label>
+      <input type="checkbox">
+      <label for="checkbox">מספר ילדים שימלאו להם 6 שנים עד 12 שנים בשנת המס______.</label>
+      <input type="checkbox">
+      <label for="checkbox">מספר ילדים שימלאו להם שנה אחת עד 5 שנים בשנת המס______.</label><br>
+      9
+      <input type="checkbox">
+      <label for="checkbox">אני הורה יחיד.<br>
+        לילדיי שבחזקתי (המפורטים בסעיף 7 ו-8 לעיל).</label><br>
+      10
+      <input type="checkbox">
+      <label for="checkbox">בגין ילדיי שאינם בחזקתי המפורטים בחלק ג ואני משתתף/ת בכלכלתם.
+        ימולא ע"י הורה החי בנפרד, שאינו זכאי לנקודות זיכוי בגין ילדיו, אשר המציא פס"ד המחייב אותו בתשלום מזונות.</label><br>
+      11
+      <input type="checkbox">
+      <label for="checkbox">oאני הורה ל _____ילדים עם מוגבלות שטרם מלאו להם 19 שנים, בגינם אני מקבל/ת גמלת ילד נכה מהמוסד לביטוח לאומי. מצורף
+        אישור גמלת ילד נכה מהמוסד לביטוח לאומי לשנה נוכחית. בן זוגי אינו מקבל נקודות זיכוי אלה. לילדיי, בגינם אני מבקש את נקודות הזיכוי, אין הכנסות בשנה הנוכחית.</label><br>
+      12
+      <input type="checkbox">
+      <label for="checkbox">בגין מזונות לבן/בת זוגי לשעבר. ימולא ע"י מי שנישא בשנית. מצורף פסק דין.</label><br>
+      13
+      <input type="checkbox">
+      <label for="checkbox">מלאו לי או לבן/בת זוגי 16 שנים וטרם מלאו לי או לבן/בת זוגי 18 שנים בשנת המס.</label><br>
+      14
+      <input type="checkbox">
+      <label for="checkbox">אני חייל/ת משוחרר/ת / שרתתי בשירות לאומי. תאריך תחילת השירות תאריך סיום השירות_____ .
+        _______מצורף צילום של תעודת שחרור/סיום שירות.
+        </label><br>
+      15
+      <input type="checkbox">
+      <label for="checkbox">בגין סיום לימודים לתואר אקדמי, סיום התמחות או סיום לימודי מקצוע. מצורפת הצהרה בטופס 119.</label>
+      <br><br>
+      <h4>אני מ בקש/ת תיאום מס מהסיבות הבאות (סמן/י √ בריבוע המתאים)</h4>
+      <fieldset>1
+        <input type="checkbox" name="chechbox">
+        <label for="chechbox"> לא היתה לי הכנסה מתחילת שנת המס הנוכחית עד לתחילת עבודתי אצל מעסיק זה.</label><br>
+        2
+        <input type="checkbox" name="chechbox">
+        <label for="checkbox">פקיד השומה אישר תיאום לפי אישור מצורף.</label>
+        
+
+
+
+
+      </fieldset>
+      <h4>הצהרה</h4>
+     
+      <div class="hartsaa">
+        
+        <p>אני מצהיר/ה כי הפרטים שמסרתי בטופס זה הינם מלאים ונכונים. ידוע לי שהשמטה או מסירת פרטים לא נכונים הינה עבירה על פקודת
+          מס הכנסה. אני מתחייב/ת להודיע למעסיק על כל שינוי שיחול בפרטיי האישיים ובפרטים דלעיל תוך שבוע ימים מתאריך השינוי.</p>
+          <p class="left">
+            חתימה  המבקש<br>
+          ________
+        </p>
+          <p class="left">
+            חתימה <br>
+            ________
+          </p>
+
+          
+
+      </div>
+      <br><br><br>
+
+      
+      
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+      
+       
+        
+  
+   
+
+    
+
+
+      
+
+      
+    </fieldset>
+    </form>
+    <center >
+      <input type="submit" value="שלח" class="send">
+    </center>
+</body>
+</html>
